@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Parkinsans", sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background-color: rgb(23, 23, 61);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 2rem;
+    width: 45rem;
+    border-radius: 1rem;
+}
+
+.main-heading {
+    border-bottom: 2px solid rgb(23, 23, 61);
+    padding-bottom: 1rem;
+    font-weight: 600
+}
+
+.quiz {
+    margin: 2rem 0rem; 
+}
+
+.question {
+    font-size: 1.4rem;
+}
+
+.options {
+    font-size: 1.1rem;
+    list-style: none;
+}
+
+li {
+    border: 2px solid rgb(23, 23, 61);
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    margin: 1.3rem 0;
+    cursor: pointer;
+}
+
+.success {
+    background-color: rgb(10, 177, 10);
+}
+
+.fail {
+    background-color: rgb(241, 39, 39);
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.result {
+    background-color: #ffffff;
+    padding: 2rem;
+    width: 20rem;
+    border-radius: 1rem;
+    display: none;
+}
+
+.result h2 {
+    font-size: 2rem;
+}
+
+.summary {
+    margin: 1.4rem 0;
+}
+
+.result p {
+    font-size: 1.2rem;
+}
+
+.play-again {
+    padding: 8px;
+    background-color: rgb(23, 23, 61);
+    color: #ffffff;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.button-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
